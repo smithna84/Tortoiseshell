@@ -1,0 +1,71 @@
+/* Page Style */
+
+body{
+  font: helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* Header Style */
+
+#header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  width: 960px;
+  color: white;
+  background-color: cadetblue;
+  top: 1rem;
+}
+
+#header img{
+  height: 1.5rem;
+  margin: 1rem 1rem 1rem 2rem;
+}
+
+#header h1{
+  font: helvetica;
+}
+
+.container{
+  text-align: right;
+  flex-grow: 1;
+}
+
+.container span{
+  display: inline-block;
+}
+
+.container a{
+  font: helvetica;
+  color: white;
+  margin: 1rem 2rem;
+}
+
+/* Main Content Style */
+
+#content{
+  border: 1px solid black;
+}
+
+.flex-container{
+  background-image: url(../Images/glasses-bg.png);
+  border: 1px solid blue;
+}
+
+.main-banner{
+  border: 1px solid pink;
+}
+
+.supporting{
+  border: 1px solid yellow;
+}
+
+.services{
+  border: 1px solid green;
+}
+
+.info{
+  border: 1px solid red;
+}
